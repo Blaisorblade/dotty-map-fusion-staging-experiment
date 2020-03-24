@@ -1,11 +1,11 @@
-import scala.quoted._
-import scala.quoted.staging.{run, withQuoteContext, Toolbox}
+// import scala.quoted._
+// import scala.quoted.staging.{run, withQuoteContext, Toolbox}
 import PipeExample._
 
 object Main {
 
   // Needed to run or show quotes
-  given Toolbox = Toolbox.make(getClass.getClassLoader)
+  // given Toolbox = Toolbox.make(getClass.getClassLoader)
 
   def main(args: Array[String]): Unit = {
 
